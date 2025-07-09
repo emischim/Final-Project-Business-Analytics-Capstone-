@@ -7,7 +7,7 @@ This project aims to identify distinct customer segments using clustering techni
 ## 📁 Dataset
 
 **Source**: [Kaggle - Retail Analysis Large Dataset](https://www.kaggle.com/datasets/sahilprajapati143/retail-analysis-large-dataset)  
-**Size**: Over 250,000+ rows  
+**Size**: Over 300,000+ rows  
 **Features Include**:
 - Customer demographics (Name, Age, Gender, Country, Income)
 - Transaction data (Product Category, Amount, Purchase Date, Quantity)
