@@ -26,8 +26,7 @@ To segment customers based on behavioral and demographic factors and extract act
 ### 1. Data Cleaning & Preparation
 - Removed inconsistent and duplicate records
 - Standardized demographic features
-- Derived new fields: Frequency, Monetary, Recency
-- Created a unique customer identifier (`New_Customer_ID`) using email
+- Derived new metrics: Frequency, Monetary, Recency
 
 ### 2. Feature Engineering
 - Aggregated transactional records at the customer level
@@ -85,7 +84,7 @@ A deployment-ready ML model (KMeans) can be exported and served via:
 
 ```bash
 ├── notebooks/
-│   └── customer_segmentation.ipynb     # Main modeling and analysis notebook
+│   └── Capstone_Project_Customer_Segmentation_Analysis.ipynb     # Main modeling and analysis notebook
 ├── data/
 │   └── raw/                            # Original Kaggle dataset
 │   └── processed/                      # Cleaned and aggregated data
