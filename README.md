@@ -86,12 +86,9 @@ A deployment-ready ML model (KMeans) can be exported and served via:
 ├── notebooks/
 │   └── Capstone_Project_Customer_Segmentation_Analysis.ipynb     # Main modeling and analysis notebook
 ├── data/
-│   └── raw/                            # Original Kaggle dataset
-│   └── processed/                      # Cleaned and aggregated data
-├── visuals/
-│   └── cluster_visuals/                # PNGs of PCA plots and Elbow curves
+│   └── retail_data_cleaned.zip/        # Cleaned Data
 ├── deployment/
 │   └── inference.py                    # Entry point for AWS deployment
 ├── dashboards/
-│   └── powerbi_cluster_overview.pbix   # Power BI dashboards
+│   └── Final_Capstone_Project.pbix     # Power BI dashboards
 └── README.md                           # Project overview
