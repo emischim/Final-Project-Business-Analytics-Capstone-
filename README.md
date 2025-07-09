@@ -89,6 +89,4 @@ A deployment-ready ML model (KMeans) can be exported and served via:
 │   └── retail_data_cleaned.zip/        # Cleaned Data
 ├── deployment/
 │   └── inference.py                    # Entry point for AWS deployment
-├── dashboards/
-│   └── Final_Capstone_Project.pbix     # Power BI dashboards
 └── README.md                           # Project overview
