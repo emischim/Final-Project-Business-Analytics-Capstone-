@@ -86,7 +86,8 @@ A deployment-ready ML model (KMeans) can be exported and served via:
 ├── notebooks/
 │   └── Capstone_Project_Customer_Segmentation_Analysis.ipynb     # Main modeling and analysis notebook
 ├── data/
-│   └── retail_data_cleaned.zip/        # Cleaned Data
+│   └── retail_data.zip/                # Original Dataset
+│   └── retail_data_cleaned.zip/        # Cleaned Dataset
 ├── deployment/
 │   └── inference.py                    # Entry point for AWS deployment
 └── README.md                           # Project overview
