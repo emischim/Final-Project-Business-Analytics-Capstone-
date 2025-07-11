@@ -74,9 +74,7 @@ To segment customers based on behavioral and demographic factors and extract act
 ## 🚀 Deployment Plan (Optional)
 
 A deployment-ready ML model (KMeans) can be exported and served via:
-- **AWS SageMaker** for scalable real-time inference
 - **Flask API** on **EC2**
-- **Docker + Lambda + API Gateway** (lightweight serverless option)
 
 ---
 
@@ -86,8 +84,11 @@ A deployment-ready ML model (KMeans) can be exported and served via:
 ├── notebooks/
 │   └── Capstone_Project_Customer_Segmentation_Analysis.ipynb     # Main modeling and analysis notebook
 ├── data/
-│   └── retail_data.zip/                # Original Dataset
-│   └── retail_data_cleaned.zip/        # Cleaned Dataset
+│   └── retail_data.zip/                
+│   └── retail_data_cleaned.zip/        
 ├── deployment/
-│   └── inference.py                    # Entry point for AWS deployment
-└── README.md                           # Project overview
+│   └── app.py
+│   └── scaler.pkl
+│   └── kmeans_model.pkl
+│   └── index,html                  
+└── README.md                           
