@@ -71,10 +71,11 @@ To segment customers based on behavioral and demographic factors and extract act
 
 ---
 
-## 🚀 Deployment Plan (Optional)
+## 🚀 Deployment
 
-A deployment-ready ML model (KMeans) can be exported and served via:
+A deployment-ready ML model (KMeans) exported and served via:
 - **Flask API** on **EC2**
+- http://44.211.250.138:5000/
 
 ---
 
